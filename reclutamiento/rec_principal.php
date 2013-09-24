@@ -43,46 +43,46 @@
         	<div id="tabla_pla">
         		<table id="tabla_cont">
         			<tr>
-						<td class="title_pla">Nombre de plaza uno</td>
-						<td>Agregar candidato</td>
-						<td>Costos de plaza</td>
-						<td>Tiempo ejecutado</td>
-						<td>Reloj de arena</td>
+						<td title="Click para ingresar al detalle de la etapa de contratación de ésta plaza" class="title_pla"><a href="#">Nombre de plaza uno</a></td>
+						<td title="Click para agregar un candidato a la plaza solicitada" class="ag_can"><a href="rec_ag_candidato.php">Agregar candidato</a></td>
+						<td title="Reporte de costos realizados para ésta plaza" class="repo_li"><a href="#">Costos de plaza</a></td>
+						<td title="Reporte de tiempos empleados en las diferentes etapas" class="repo_li"><a href="#">Tiempo Ejecutado</a></td>
+						<td title="Reporte de filtro de candidatos según etapas no cumplidas" class="repo_li"><a href="#">Reloj de arena</a></td>
 					</tr>
 					<tr>
-						<td class="title_pla">Nombre de plaza dos</td>
-						<td>Agregar candidato</td>
-						<td>Costos de plaza</td>
-						<td>Tiempo ejecutado</td>
-						<td>Reloj de arena</td>
+						<td title="Click para ingresar al detalle de la etapa de contratación de ésta plaza" class="title_pla"><a href="#">Nombre de plaza uno</a></td>
+						<td title="Click para agregar un candidato a la plaza solicitada" class="ag_can"><a href="rec_ag_candidato.php">Agregar candidato</a></td>
+						<td title="Reporte de costos realizados para ésta plaza" class="repo_li"><a href="#">Costos de plaza</a></td>
+						<td title="Reporte de tiempos empleados en las diferentes etapas"class="repo_li"><a href="#">Tiempo Ejecutado</a></td>
+						<td title="Reporte de filtro de candidatos según etapas no cumplidas" class="repo_li"><a href="#">Reloj de arena</a></td>
 					</tr>  
 					<tr>
-						<td class="title_pla">Nombre de plaza tres</td>
-						<td>Agregar candidato</td>
-						<td>Costos de plaza</td>
-						<td>Tiempo ejecutado</td>
-						<td>Reloj de arena</td>
+						<td title="Click para ingresar al detalle de la etapa de contratación de ésta plaza" class="title_pla"><a href="#">Nombre de plaza uno</a></td>
+						<td title="Click para agregar un candidato a la plaza solicitada" class="ag_can"><a href="rec_ag_candidato.php">Agregar candidato</a></td>
+						<td title="Reporte de costos realizados para ésta plaza" class="repo_li"><a href="#">Costos de plaza</a></td>
+						<td title="Reporte de tiempos empleados en las diferentes etapas" class="repo_li"><a href="#">Tiempo Ejecutado</a></td>
+						<td title="Reporte de filtro de candidatos según etapas no cumplidas" class="repo_li"><a href="#">Reloj de arena</a></td>
 					</tr> 
 					<tr>
-						<td class="title_pla">Nombre de plaza cuatro</td>
-						<td>Agregar candidato</td>
-						<td>Costos de plaza</td>
-						<td>Tiempo ejecutado</td>
-						<td>Reloj de arena</td>
+						<td title="Click para ingresar al detalle de la etapa de contratación de ésta plaza" class="title_pla"><a href="#">Nombre de plaza uno</a></td>
+						<td title="Click para agregar un candidato a la plaza solicitada" class="ag_can"><a href="rec_ag_candidato.php">Agregar candidato</a></td>
+						<td title="Reporte de costos realizados para ésta plaza" class="repo_li"><a href="#">Costos de plaza</a></td>
+						<td title="Reporte de tiempos empleados en las diferentes etapas" class="repo_li"><a href="#">Tiempo Ejecutado</a></td>
+						<td title="Reporte de filtro de candidatos según etapas no cumplidas" class="repo_li"><a href="#">Reloj de arena</a></td>
 					</tr> 
 					<tr>
-						<td class="title_pla">Nombre de plaza cinco</td>
-						<td>Agregar candidato</td>
-						<td>Costos de plaza</td>
-						<td>Tiempo ejecutado</td>
-						<td>Reloj de arena</td>
+						<td title="Click para ingresar al detalle de la etapa de contratación de ésta plaza" class="title_pla"><a href="#">Nombre de plaza uno</a></td>
+						<td title="Click para agregar un candidato a la plaza solicitada" class="ag_can"><a href="rec_ag_candidato.php">Agregar candidato</a></td>
+						<td title="Reporte de costos realizados para ésta plaza" class="repo_li"><a href="#">Costos de plaza</a></td>
+						<td title="Reporte de tiempos empleados en las diferentes etapas" class="repo_li"><a href="#">Tiempo Ejecutado</a></td>
+						<td title="Reporte de filtro de candidatos según etapas no cumplidas" class="repo_li"><a href="#">Reloj de arena</a></td>
 					</tr> 
 					<tr>
-						<td class="title_pla">Nombre de plaza seis</td>
-						<td>Agregar Candidato</td>
-						<td>Costos de plaza</td>
-						<td>Tiempo ejecutado</td>
-						<td>Reloj de arena</td>
+						<td title="Click para ingresar al detalle de la etapa de contratación de ésta plaza" class="title_pla"><a href="#">Nombre de plaza uno</a></td>
+						<td title="Click para agregar un candidato a la plaza solicitada" class="ag_can"><a href="rec_ag_candidato.php">Agregar candidato</a></td>
+						<td title="Reporte de costos realizados para ésta plaza" class="repo_li"><a href="#">Costos de plaza</a></td>
+						<td title="Reporte de tiempos empleados en las diferentes etapas" class="repo_li"><a href="#">Tiempo Ejecutado</a></td>
+						<td title="Reporte de filtro de candidatos según etapas no cumplidas" class="repo_li"><a href="#">Reloj de arena</a></td>
 					</tr>          		
         		</table>
         	</div>

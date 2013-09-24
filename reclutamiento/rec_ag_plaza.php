@@ -9,7 +9,7 @@
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
 <!--[if lt IE 8]><link rel="stylesheet" href="../styles/bluep/ie.css" type="text/css" media="screen, projection"><![endif]-->
 <!--[if IE]><link rel="stylesheet" type="text/css" href="../styles/bluep/iestyle.css"><![endif]-->
-<title>Intranet - Modulo de contrataci贸n de personal</title>
+<title>Intranet - Modulo de contrataci脙鲁n de personal</title>
 </head>
 <body>
 <div class="container">
@@ -41,18 +41,18 @@
     	<div id="content" class="span-17 last ">
         	<h3>Agregar candidato a plaza[NOMBRE DE PLAZA CAMPO]</h3>
         	<form class="forma_es">
-        		<li>C骴igo de usuario (asignado por sistema)</li>
+        		<li>C贸digo de usuario (asignado por sistema)</li>
         		<input placeholder="Nombre de candidato:" type="text" name="nombre_can" ><br>
         		<input placeholder="Apellido de candidato:" type="text" name="ape_can"><br>
         		<input placeholder="Edad:" type="text" name="edad_can"><br>
-        		<input placeholder="N鷐ero telef髇ico:" type="text" name="tele_can"><br>
-        		<input placeholder="N鷐ero de DPI:" type="text" name="dpi_can"><br>
-        		<input placeholder="Profesi髇:" type="text" name="prof_can"><br>      	 
+        		<input placeholder="N煤mero telef贸nico:" type="text" name="tele_can"><br>
+        		<input placeholder="N煤mero de DPI:" type="text" name="dpi_can"><br>
+        		<input placeholder="Profesi贸n:" type="text" name="prof_can"><br>      	 
         	</form>
         	<form class="up_file">
-        		<li>Subir Curr韈ulum:</li> 
+        		<li>Subir Curr铆culum:</li> 
         		<input type="file" name="curri_can"><input type="submit"></li><br>
-        		<li>Subir Fotograf憝a:</li> <input type="file" name="foto_can"><input type="submit"></li><br>        		
+        		<li>Subir Fotograf铆颅a:</li> <input type="file" name="foto_can"><input type="submit"></li><br>        		
         	</form>
         	<li class="grab_reg"><input type="submit" value="Grabar candidato"></li>
         	
@@ -62,7 +62,7 @@
             	<li><a href="../principal.php">Inicio</a></li>
                 <li><a href="../mod-vacaciones.php">Vacaciones</a></li>
                 <li><a href="../mod-scorecard.php">ScoreCard</a></li>
-                <li><a href="../principal.php">Inducci髇</a></li>
+                <li><a href="../principal.php">Inducci贸n</a></li>
                 <li><a href="../principal.php">Perfiles</a></li>
                 <li><a href="../principal.php">Procesos</a></li>
                 <li><a href="../rec_principal.php">Reclutamiento</a></li>
