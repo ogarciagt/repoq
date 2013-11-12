@@ -9,30 +9,7 @@
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
 <!--[if lt IE 8]><link rel="stylesheet" href="../styles/bluep/ie.css" type="text/css" media="screen, projection"><![endif]-->
 <!--[if IE]><link rel="stylesheet" type="text/css" href="../styles/bluep/iestyle.css"><![endif]-->
-<title>Intranet - Modulo de contratación de personal</title>
-
-<script languaje="javascript">
-function abrir(url){
-    window.open(url,"Aprobar Curriculum","width=700,height=290, top=250,left=280")
-  }
-</script>
-
-
-<script type="text/javascript">
-onload = function () {
-    onfocus = function () {location.reload (true)}
-}
-</script>
-
-
-<script>
-function pepz(pageURL, title,w,h) {
-var left = (screen.width/2)-(w/2);
-var top = (screen.height/2)-(h/2);
-var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
-}
-</script>
-
+<title>Intranet - Modulo de contrataciÃ³n de personal</title>
 </head>
 <body>
 <div class="container">
@@ -62,27 +39,46 @@ var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directori
 			?>
         </div>
     	<div id="content" class="span-17 last ">
-        	<h3>Entrevista con Jefe Inmediato [NOMBRE DE CANDIDATO]</h3>        	
-        	<form class="up_file_eta">
-        		<li>Subir archivo:</li> 
-        		<input type="file" name="curri_can"><input type="submit"></li><br>        		
-        	</form>
-        	<div class="pregunta_et">
-        		<p>¿Candidato (a) cumple con expectativas de jefe inmediato en ésta etapa?</p>
-        	</div>
-        	<div>
-				<table class="aprob_deneg">					
-					<tr>
-						<td class="eta_si"><a href="#" onclick="abrir('../reclutamiento/rec-popup/rec_si_jefi3.php<?php echo $row['IdRE']; ?>'); return false;">Sí­ cumple</a></a></td>
-						<td class="eta_no"><a href="#" onclick="abrir('../reclutamiento/rec-popup/rec_no_jefi3.php<?php echo $row['IdRE']; ?>'); return false;">No cumple</a></a></td>				
-						<td class="add_costo"><a href="#" onclick="abrir('../reclutamiento/rec-popup/add_costo.php<?php echo $row['IdRE']; ?>'); return false;">Agregar costos y tiempos</a></td>					
-					</tr>			
-				</table>     	
-        	</div>
-        	<p class="regresa_eta">Regresar a la <a href="../reclutamiento/rec_detalle_plaza.php">página principal</a> de la plaza [NOMBRE_DE_PLAZA]</p>
+        	<h3>Mantenimiento de plazas dentro del sistema de contrataciÃ³n</h3>
+        	<li id="agplaz_bot"><a href='../reclutamiento/rec_ag_plaza.php'>Agregar plaza</a></li>
+        	<table>
+        		<tr>
+					<th>Nombre de plaza</th>
+					<th>Etapas de contratación</th>
+					<th>Pausar proceso de plaza</th>
+					<th>Reanudar proceso de plaza</th>
+					<th>Cancelar proceso de plaza</th>   
+				</tr>
+				<tr>
+					<td>Plaza numero 1</td>
+					<td>Etapas</td>
+					<td>Pausar</td>
+					<td>Reanudar</td>
+					<td>Cancelar</td>				
+				</tr> 
+				<tr>
+					<td>Plaza numero 2</td>
+					<td>Etapas</td>
+					<td>Pausar</td>
+					<td>Reanudar</td>
+					<td>Cancelar</td>				
+				</tr>     	
+        	</table>
         	
         	
-        	
+        </div><!--end of content-->
+        <div id="botmenu" class="span-24 last">
+        	<ul>
+            	<li><a href="../principal.php">Inicio</a></li>
+                <li><a href="../mod-vacaciones.php">Vacaciones</a></li>
+                <li><a href="../mod-scorecard.php">ScoreCard</a></li>
+                <li><a href="../principal.php">InducciÃ³n</a></li>
+                <li><a href="../principal.php">Perfiles</a></li>
+                <li><a href="../principal.php">Procesos</a></li>
+                <li><a href="../rec_principal.php">Reclutamiento</a></li>
+                <li><a href="../principal.php">Salir</a></li>
+    		</ul>
+        </div>        
     </div><!-- end of wrap content-->
     
 </div><!--end of class container-->

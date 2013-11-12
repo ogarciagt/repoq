@@ -9,7 +9,7 @@
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
 <!--[if lt IE 8]><link rel="stylesheet" href="../styles/bluep/ie.css" type="text/css" media="screen, projection"><![endif]-->
 <!--[if IE]><link rel="stylesheet" type="text/css" href="../styles/bluep/iestyle.css"><![endif]-->
-<title>Intranet - Modulo de contrataciÃƒÂ³n de personal</title>
+<title>Intranet - Modulo de contratación de personal</title>
 </head>
 <body>
 <div class="container">
@@ -39,22 +39,33 @@
 			?>
         </div>
     	<div id="content" class="span-17 last ">
-        	<h3>Agregar candidato a plaza[NOMBRE DE PLAZA CAMPO]</h3>
+        	<h3>Agregar plaza al sistema de contratación</h3>
         	<form class="forma_es">
-        		<li>CÃ³digo de usuario (asignado por sistema)</li>
-        		<input placeholder="Nombre de candidato:" type="text" name="nombre_can" ><br>
-        		<input placeholder="Apellido de candidato:" type="text" name="ape_can"><br>
-        		<input placeholder="Edad:" type="text" name="edad_can"><br>
-        		<input placeholder="NÃºmero telefÃ³nico:" type="text" name="tele_can"><br>
-        		<input placeholder="NÃºmero de DPI:" type="text" name="dpi_can"><br>
-        		<input placeholder="ProfesiÃ³n:" type="text" name="prof_can"><br>      	 
+        		<li>Código de plaza (asignado por sistema)</li>
+        		<input placeholder="Nombre de plaza:" type="text" name="nombre_plaz" ><br>
+        		<li class="jefin_plaz">Solicitado por: <select>
+					<option value="uno">William Gatica</option>
+					<option value="dos">Paul Sandoval</option>
+					<option value="tres">Inés Arrivillaga</option>        		
+        		</select></li><br>
+        		<textarea placeholder="Ingrese aquí los requisitos de la plaza" rows="2" cols="2"></textarea><br>
+        		<li class="jefin_plaz">Rango de edad: <select>
+					<option value="uno">20- 30</option>
+					<option value="dos">30 - 40</option>
+					<option value="tres">40 - 50</option>        		
+        		</select></li><br>
+        		<li class="jefin_plaz">Empresa que solicita: <select>
+					<option value="uno">Calidad Inmobiliaria</option>
+					<option value="dos">Qualicons</option>
+					<option value="tres">Gerencia de Inmuebles</option>        		
+        		</select></li><br>      	 
         	</form>
         	<form class="up_file">
-        		<li>Subir CurrÃ­culum:</li> 
+        		<li>Subir Score Card:</li> 
         		<input type="file" name="curri_can"><input type="submit"></li><br>
-        		<li>Subir FotografÃ­Â­a:</li> <input type="file" name="foto_can"><input type="submit"></li><br>        		
+        		<li>Subir requisición de personal:</li> <input type="file" name="foto_can"><input type="submit"></li><br>        		
         	</form>
-        	<li class="grab_reg"><input type="submit" value="Grabar candidato"></li>
+        	<li class="grab_reg"><input type="submit" value="Grabar plaza"></li>
         	
         </div><!--end of content-->
         <div id="botmenu" class="span-24 last">
